@@ -1,4 +1,4 @@
-﻿void Exercicio01()
+void Exercicio01()
 {
     // Crie um algoritmo que:
     // 1. Declare uma variável chamada 'usuario' do tipo string com o nome de um usuário.
@@ -45,15 +45,20 @@ void Exercicio03()
     // 2. Declare uma variável chamada 'preco' do tipo double.
     // 3. Use interpolação para exibir: "O produto [produto] custa R$ [preco]."
 
+    Console.Write("Digite o nom do seu produto: ");
+    string produto = Console.ReadLine();
+    Console.WriteLine(produto);
 
+    Console.Write("Digite o nom do seu produto: ");
+    double preco = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine(preco);
 
-
-
+    Console.WriteLine($"O produto: {produto} custa R$: {preco}");
 
 
 }
 // Descomente o bloco de código abaixo para executar o exercício
-// Exercicio03();
+//Exercicio03(); 
 
 
 void Exercicio04()
@@ -64,9 +69,18 @@ void Exercicio04()
     // 3. Use interpolação para exibir: "As notas foram: [nota1], [nota2]. A média final é [media]."
 
 
+    double nota1 = 32;
+    double nota2 = 43;
+
+    double media1 = nota1 + nota2;
+    double media2 = media1 / 2;
+
+    Console.Write($"As notas foram: {nota1}, {nota2}. A média final é {media2}");
+
+
 }
 // Descomente o bloco de código abaixo para executar o exercício
-// Exercicio04();
+ //Exercicio04();
 
 
 void Exercicio05()
@@ -76,9 +90,25 @@ void Exercicio05()
     // 2. Use interpolação para exibir: "[nomeFuncionario] ocupa o cargo de [cargo] e recebe R$ [salario]."
 
 
+
+    Console.Write("Nome do funcionario: ");
+    string nome = Console.ReadLine();
+    Console.WriteLine(nome);
+
+    Console.Write("Cargo: ");
+    string cargo = Console.ReadLine();
+    Console.WriteLine(cargo);
+
+    Console.Write("Salário: ");
+    double salario = Convert.ToDouble(Console.ReadLine());
+    Console.WriteLine(salario);
+
+    Console.WriteLine($"Nome do funcionario é: {nome}, Cargo: {cargo}, Salário: {salario}");
+
+
 }
 // Descomente o bloco de código abaixo para executar o exercício
-// Exercicio05();
+//Exercicio05();
 
 
 void Exercicio06()
@@ -88,9 +118,24 @@ void Exercicio06()
     // 2. Use interpolação para exibir: "Veículo: [marca] [modelo] - Ano [ano]."
 
 
+    Console.Write("Digite a marca do veiculo: ");
+    string marca = Console.ReadLine();
+    Console.WriteLine(marca);
+
+    Console.Write("Modelo: ");
+    string modelo = Console.ReadLine();
+    Console.WriteLine(modelo);
+
+
+    Console.Write("Ano: ");
+    int ano = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine(ano);
+
+    Console.WriteLine($"Marca: {marca}, Modelo: {modelo}, Ano: {ano}");
+
 }
 // Descomente o bloco de código abaixo para executar o exercício
-// Exercicio06();
+ //Exercicio06();
 
 
 void Exercicio07()
@@ -99,6 +144,14 @@ void Exercicio07()
     // 1. Declare as variáveis: 'produto' (string), 'quantidade' (int), 'precoUnitario' (double).
     // 2. Calcule o total da compra e armazene em 'valorTotal'.
     // 3. Use interpolação para exibir: "[quantidade] x [produto] a R$ [precoUnitario] cada. Total: R$ [valorTotal]."
+
+    string produto = "Lego f1";
+    int quantidade = 6;
+    double precoUnitario = 258.90;
+
+
+
+
 
 
 }
@@ -124,6 +177,8 @@ void Exercicio09()
     // strings para substituir o texto "interpolacao" pelo valor da variável "interpolacao" no texto exibido.
     double interpoalacao = 0.8754321;
 
+    Console.Write($"O valor final da sua compra é de: {interpoalacao: #.##}");
+
     Console.WriteLine("A diferença entre os corredores foi de apenas: interpolacao");
 }
 // Descomente o bloco de código abaixo para executar o exercício
@@ -135,8 +190,11 @@ void Exercicio10()
     // Arredonde o número abaixo para uma casa decimal e, em seguida, utilize interpolação de 
     // strings para substituir o texto "interpolacao" pelo valor da variável "interpolacao" no texto exibido.
     double interpoalacao = 0.629874;
+    Console.WriteLine($"A piscina tem apenas {interpoalacao.ToString("F1")} metros de profundidade.");
 
-    Console.WriteLine("A piscina tem apenas interpolacao metros de profundidade.");
+
 }
+
+
 // Descomente o bloco de código abaixo para executar o exercício
-// Exercicio10();
+Exercicio10();
