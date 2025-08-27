@@ -1,6 +1,6 @@
 # 🚀 Introdução ao C#
 
-Este repositório reúne anotações e exemplos práticos do curso de **C# - SENAI (2º Semestre)**.  
+Este repositório reúne anotações e exemplos práticos do curso de **C# - SENAI Tecnico em Análise e Desenvolvimento de Sistemas (2º Semestre)**.  
 O objetivo é servir como guia de estudo, com foco nos conceitos básicos, estruturas da linguagem e boas práticas.
 
 ---
