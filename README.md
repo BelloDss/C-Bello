@@ -233,7 +233,7 @@ while(x<5)
 
 ## 🏁 Conclusão
 
-Este README contém **todos os conceitos e exemplos básicos de C#** do segundo semestre do SENAI, incluindo: tipos de dados, variáveis, operadores, estruturas condicionais, laços de repetição, arrays, listas, strings, conversões, interpolação e manipulação de números.
+Este README contém **quse todos (veja mais clicando no repertorio.) os conceitos e exemplos básicos de C#** do segundo semestre do SENAI, incluindo: tipos de dados, variáveis, operadores, estruturas condicionais, laços de repetição, arrays, listas, strings, conversões, interpolação e manipulação de números.
 
 ---
 
