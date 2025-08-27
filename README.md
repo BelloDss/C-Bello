@@ -1,30 +1,39 @@
-# 📚 Aulas de C# - SENAI
+# 🚀 Introdução ao C#
 
-Este repositório contém os conteúdos e anotações das aulas de **C#** realizadas no curso técnico do **SENAI**. O foco é introduzir os conceitos fundamentais da linguagem e desenvolver a lógica de programação utilizando os recursos da plataforma .NET.
+Este repositório reúne anotações e exemplos práticos do curso de **C# - SENAI (2º Semestre)**.  
+O objetivo é servir como guia de estudo, com foco nos conceitos básicos, estruturas da linguagem e boas práticas.
 
 ---
 
-## 🧠 Conteúdo Abordado
-
-### ✅ Introdução ao C#
-- História da linguagem
-- Características principais
+## 📖 Fundamentos da Linguagem
+- História do **C#**
+- Principais características
 - Estrutura de um programa em C#
-- Tipos de projetos no Visual Studio
+- Tipos de projetos no **Visual Studio**
 
-### 🧩 Conceitos Básicos
-- Tipos de dados (`int`, `float`, `double`, `string`, `bool`, etc.)
-- Variáveis e constantes
-- Entrada e saída de dados (`Console.ReadLine()`, `Console.WriteLine()`)
+---
 
-### 💻 Comandos Básicos
-- Estruturas de decisão: `if`, `else`, `switch`
-- Estruturas de repetição: `for`, `while`, `do-while`, `foreach`
-- Operadores: aritméticos, relacionais, lógicos e de atribuição
+## 🧩 Conceitos Básicos
+- **Tipos de dados:** `int`, `float`, `double`, `string`, `bool`, etc.
+- **Variáveis e constantes**
+- **Entrada e saída de dados:**  
+  - `Console.ReadLine()`  
+  - `Console.WriteLine()`
 
-### 💬 Interpolação de Strings
-- Uso do símbolo `$` para construir strings de forma dinâmica:
-  ```csharp
-  string nome = "Matheus";
-  int idade = 18;
-  Console.WriteLine($"Nome: {nome}, Idade: {idade}");
+---
+
+## 💻 Comandos Essenciais
+- **Estruturas de decisão:** `if`, `else`, `switch`
+- **Estruturas de repetição:** `for`, `while`, `do-while`, `foreach`
+- **Operadores:** aritméticos, relacionais, lógicos e de atribuição
+
+---
+
+## 💬 Interpolação de Strings
+Permite construir strings de forma dinâmica com o símbolo `$`:
+
+```csharp
+string nome = "Matheus";
+int idade = 18;
+
+Console.WriteLine($"Nome: {nome}, Idade: {idade}");
