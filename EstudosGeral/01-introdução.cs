@@ -1,4 +1,4 @@
-﻿//Como imprimir uma informação no consolo
+﻿//Como imprimir uma informação no console
 Console.WriteLine("Meu primeiro código");
 
 Console.WriteLine();
